@@ -23,14 +23,8 @@
         </license>
     </licenses>
 
-    <scm>
-        <connection>scm:git:git@github.com:jprante/elasticsearch-analysis-decompound.git</connection>
-        <developerConnection>scm:git:git@github.com:jprante/elasticsearch-analysis-decompound.git</developerConnection>
-        <url>http://github.com/jprante/elasticsearch-analysis-decompound</url>
-    </scm>
-
     <properties>
-        <elasticsearch.version>0.19.11</elasticsearch.version>
+        <elasticsearch.version>0.20.0.Beta1-SNAPSHOT</elasticsearch.version>
     </properties>
 
     <dependencies>
@@ -133,7 +127,6 @@
                     </archive>                    
                     <descriptors>
                         <descriptor>${basedir}/src/main/assemblies/plugin.xml</descriptor>
-                        <descriptor>${basedir}/src/main/assemblies/tool.xml</descriptor>
                     </descriptors>
                 </configuration>
                 <executions>
