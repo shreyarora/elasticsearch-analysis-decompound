@@ -24,7 +24,7 @@
     </licenses>
 
     <properties>
-        <elasticsearch.version>0.20.0.Beta1-SNAPSHOT</elasticsearch.version>
+        <elasticsearch.version>0.20.4</elasticsearch.version>
     </properties>
 
     <dependencies>
